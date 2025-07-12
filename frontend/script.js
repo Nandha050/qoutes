@@ -1,4 +1,4 @@
-const backendUrl = 'https://your-backend-url.onrender.com/quote'; // Replace with your actual Render backend URL
+const backendUrl = 'https://qoutes-2.onrender.com/qoute'; // Replace with your actual Render backend URL
 
 async function getQuote() {
   const res = await fetch(backendUrl);
