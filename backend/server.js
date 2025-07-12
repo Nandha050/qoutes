@@ -3,6 +3,8 @@ const cors = require('cors');
 const quotes = require('./quotes.json');
 
 const app = express();
+
+// ✅ Allow requests from any origin
 app.use(cors());
 
 app.get('/quote', (req, res) => {
